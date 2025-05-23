@@ -114,15 +114,15 @@ CMS Chronic Conditions Summary (2010) – includes anonymized patient-level cost
 The findings provide direct value for insurers, providers, and policy makers.
 
 **Use Cases:**
-- Payers can predict high-cost patients and adjust care plans or reimbursements
-- Health systems can prioritize patients for preventive interventions (e.g., high SNF users)
-- Policy makers can design better chronic care programs targeting impactful utilization patterns
+-	Use model predictions to proactively flag high-cost patients for budget forecasting and early intervention. Adjust reimbursement rates based on condition-specific risk.
+- Deploy care teams to patients predicted to exceed cost thresholds. Tailor strategies based on predicted utilization type (e.g., SNF-heavy vs OP-heavy).
+- Policy makers can design better chronic care programs targeting utilization patterns
 
 **Recommendations:**
-- Prioritize care coordination for patients with high physician visits and multiple conditions
-- Expand outreach programs for elderly women and disabled under-65 patients
+- Introduce condition-specific case management for CKD patients, as the analysis identified CKD as the highest cost for Part A and B, along with the greatest IP Admits and OP visits. 
+- Monitor high-frequency physician visit patients (e.g., Cancer patients), since the model shows these visits are the strongest predictors of rising Medicare costs; flagging them early can guide preventive care planning.
+- Use the model to flag patients predicted to exceed a cost threshold (e.g., $10,000/year) and enroll them into targeted care plans, such as case management or preventive services, to help reduce unnecessary hospital visits and lower overall costs.
 - Monitor outlier groups with **low utilization but high cost** (e.g., specialty drug users)
-- Allocate funding for services like SNFs and OP care where long-term savings are possible
 
 ---
 
@@ -131,9 +131,9 @@ The findings provide direct value for insurers, providers, and policy makers.
 With more time or data, I would:
 
 - Include multi-year CMS data to track patient cost over time
+- Examine why men under 65 have the highest medicare cost
 - Add social risk indicators
 - Explore SHAP values for interpretability and model transparency
-- Deploy results as an interactive dashboard with Streamlit
 - Cluster patients into segments based on usage and cost profiles
 
 ---
