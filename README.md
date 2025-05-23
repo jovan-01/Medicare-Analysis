@@ -101,11 +101,11 @@ CMS Chronic Conditions Summary (2010) – includes anonymized patient-level cost
 
 | Visualization | Description | Insight |
 |---------------|-------------|---------|
-| Stacked Bar: Cost by Condition + Medicare Part | Conditions vs. Part A/B/D | CKD, HF, and Stroke/TIA have highest overall Medicare costs. Part D doesn't significantly contribute to total Medicare cost |
-| Heatmap: Age × Gender | Total cost by demo group | Highest patient count is Women >85 and men <65 are the most expensive |
-| Utilization by Age Group | Standardized total usage | Under 65 shows highest usage when adjusted |
+| Stacked Bar: Cost by Condition + Medicare Part | Conditions vs. Part A/B/D | **CKD, HF, and Stroke/TIA** have highest overall Medicare costs. **Part D** doesn't significantly contribute to total Medicare cost |
+| Heatmap: Age × Gender | Total cost by demo group | Highest patient count is **Women >85** and **Men <65** are the most expensive |
+| Utilization by Age Group | Standardized total usage | **Under 65** shows highest cost and usage |
 | 5 Heatmaps: Top 3 Conditions by Utilization Metric | SNF, OP, Rx, IP, Physician Visits | Physician Visits: Cancer, SNF: Alzheimer’s, IP: CKD, OP: Diabetes, Rx: Depression |
-| Scatterplot (not in dashboard): Total Utilization vs Total Cost | Trend line showing cost correlation | Cost rises with utilization, but with variation and outliers |
+| Scatterplot (not in dashboard): Total Utilization vs Total Cost | Trend line showing cost correlation | **Cost rises with utilization**, but with variation and outliers |
 
 ---
 
