@@ -8,7 +8,7 @@
 This project explores how chronic conditions, demographics, and healthcare utilization affect Medicare spending. Using CMS patient-level data, I developed a machine learning model to predict total Medicare cost per patient and used Tableau visualizations to surface key cost and service trends across age groups and disease types.
 
 **Key Highlights:**
-- Achieved **93% R²** in predicting Medicare costs using Random Forest
+- Achieved **0.93 R²** in predicting Medicare costs using Random Forest
 - Identified that **physician visits**, **inpatient admits**, and **prescription fills** are the strongest predictors of cost
 - Built 5+ visuals to show cost and utilization patterns by conditon, demographic and Medicare part
 - Generated actionable business insights to guide healthcare payers and providers
